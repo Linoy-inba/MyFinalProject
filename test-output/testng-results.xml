@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T23:38:03 IDT" name="Suite" finished-at="2024-06-03T23:43:03 IDT" duration-ms="299658">
+    <groups>
+    </groups>
+    <test started-at="2024-06-03T23:38:03 IDT" name="Test" finished-at="2024-06-03T23:43:03 IDT" duration-ms="299658">
+      <class name="hw1tests.test2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hw1tests.test2@53fb3dab]" started-at="2024-06-03T23:38:42 IDT" name="setup" finished-at="2024-06-03T23:38:51 IDT" duration-ms="9319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_Checkflightfrom()[pri:0, instance:hw1tests.test2@53fb3dab]" started-at="2024-06-03T23:38:51 IDT" name="tc01_Checkflightfrom" description="choose which location to fly from" finished-at="2024-06-03T23:39:11 IDT" duration-ms="19673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_Checkflightfrom -->
+        <test-method signature="tc02_Checkflightto()[pri:0, instance:hw1tests.test2@53fb3dab]" started-at="2024-06-03T23:39:11 IDT" name="tc02_Checkflightto" description="choose which location to fly to" finished-at="2024-06-03T23:39:17 IDT" duration-ms="6459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_Checkflightto -->
+        <test-method signature="tc03_Checkflighttimefrom()[pri:0, instance:hw1tests.test2@53fb3dab]" started-at="2024-06-03T23:39:17 IDT" name="tc03_Checkflighttimefrom" description="choose which time to fly to and the return time" finished-at="2024-06-03T23:39:31 IDT" duration-ms="14085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_Checkflighttimefrom -->
+        <test-method signature="tc04_CheckEconomy()[pri:0, instance:hw1tests.test2@53fb3dab]" started-at="2024-06-03T23:39:31 IDT" name="tc04_CheckEconomy" description="choose one way option, and insert the location to fly from and to, insert the time to fly to without return time" finished-at="2024-06-03T23:39:43 IDT" duration-ms="11769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_CheckEconomy -->
+        <test-method signature="tc05_Choosepassandcabinbags()[pri:0, instance:hw1tests.test2@53fb3dab]" started-at="2024-06-03T23:39:43 IDT" name="tc05_Choosepassandcabinbags" description="choose passenger&#039;s amount and cabin bags" finished-at="2024-06-03T23:40:19 IDT" duration-ms="35628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_Choosepassandcabinbags -->
+      </class> <!-- hw1tests.test2 -->
+      <class name="hw1tests.test1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hw1tests.test1@19e4653c]" started-at="2024-06-03T23:38:03 IDT" name="setup" finished-at="2024-06-03T23:38:11 IDT" duration-ms="8055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:hw1tests.test1@19e4653c]" started-at="2024-06-03T23:38:11 IDT" name="tc01_login" description="login process with user name and password" finished-at="2024-06-03T23:38:24 IDT" duration-ms="12598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method signature="tc02_logoutandnopassward()[pri:0, instance:hw1tests.test1@19e4653c]" started-at="2024-06-03T23:38:24 IDT" name="tc02_logoutandnopassward" description="logout process test" finished-at="2024-06-03T23:38:29 IDT" duration-ms="4854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_logoutandnopassward -->
+        <test-method signature="tc03_Forgetinsertpassward()[pri:0, instance:hw1tests.test1@19e4653c]" started-at="2024-06-03T23:38:29 IDT" name="tc03_Forgetinsertpassward" description="login process with user name and without insert password" finished-at="2024-06-03T23:38:42 IDT" duration-ms="13105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_Forgetinsertpassward -->
+      </class> <!-- hw1tests.test1 -->
+      <class name="hw1tests.test4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hw1tests.test4@33065d67]" started-at="2024-06-03T23:41:45 IDT" name="setup" finished-at="2024-06-03T23:41:49 IDT" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_Clickdeals()[pri:0, instance:hw1tests.test4@33065d67]" started-at="2024-06-03T23:41:49 IDT" name="tc01_Clickdeals" description="Click on deals" finished-at="2024-06-03T23:42:13 IDT" duration-ms="24015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_Clickdeals -->
+        <test-method signature="tc02_Exploreplacedealsfrom()[pri:0, instance:hw1tests.test4@33065d67]" started-at="2024-06-03T23:42:13 IDT" name="tc02_Exploreplacedealsfrom" description="Explore cheap travel deals- place from" finished-at="2024-06-03T23:42:26 IDT" duration-ms="13455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_Exploreplacedealsfrom -->
+        <test-method signature="tc03_Exploreplacedealsdates()[pri:0, instance:hw1tests.test4@33065d67]" started-at="2024-06-03T23:42:26 IDT" name="tc03_Exploreplacedealsdates" description="Explore cheap travel deals- place return/One-way" finished-at="2024-06-03T23:42:37 IDT" duration-ms="10450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_Exploreplacedealsdates -->
+        <test-method signature="tc04_Exploreplacedealsdirection()[pri:0, instance:hw1tests.test4@33065d67]" started-at="2024-06-03T23:42:37 IDT" name="tc04_Exploreplacedealsdirection" description="Explore cheap travel deals- dates and price " finished-at="2024-06-03T23:42:59 IDT" duration-ms="22820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_Exploreplacedealsdirection -->
+        <test-method signature="tc05_Explorethedealfromlist()[pri:0, instance:hw1tests.test4@33065d67]" started-at="2024-06-03T23:42:59 IDT" name="tc05_Explorethedealfromlist" description="Cheacke the deal&#039;s price" finished-at="2024-06-03T23:43:03 IDT" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_Explorethedealfromlist -->
+      </class> <!-- hw1tests.test4 -->
+      <class name="hw1tests.test3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hw1tests.test3@cb0755b]" started-at="2024-06-03T23:40:19 IDT" name="setup" finished-at="2024-06-03T23:40:26 IDT" duration-ms="6802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_Checkflightoneway()[pri:0, instance:hw1tests.test3@cb0755b]" started-at="2024-06-03T23:40:26 IDT" name="tc01_Checkflightoneway" description="choose one way option, and insert the location to fly from and to, insert the time to fly to without return time" finished-at="2024-06-03T23:40:59 IDT" duration-ms="33481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_Checkflightoneway -->
+        <test-method signature="tc02_CheckEconomy()[pri:0, instance:hw1tests.test3@cb0755b]" started-at="2024-06-03T23:40:59 IDT" name="tc02_CheckEconomy" description="choose one way option, and insert the location to fly from and to, insert the time to fly to without return time" finished-at="2024-06-03T23:41:11 IDT" duration-ms="11685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_CheckEconomy -->
+        <test-method signature="tc03_Choosepassandcabinbags()[pri:0, instance:hw1tests.test3@cb0755b]" started-at="2024-06-03T23:41:11 IDT" name="tc03_Choosepassandcabinbags" description="choose passenger&#039;s amount and cabin bags" finished-at="2024-06-03T23:41:45 IDT" duration-ms="34711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_Choosepassandcabinbags -->
+      </class> <!-- hw1tests.test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
